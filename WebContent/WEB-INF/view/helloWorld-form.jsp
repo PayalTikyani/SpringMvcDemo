@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <body>
- <form action="processForm">
+ <form action="processFormToUpperCaseUsingRequestParam">
    <input type="text" name="name" placeholder="What's your name?">
    <input type="submit" value="Submit"> 
  </form>
