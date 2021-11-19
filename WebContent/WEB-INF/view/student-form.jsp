@@ -16,9 +16,35 @@
    
    <br><br>
    
+   Country : 
+    <form:select path="country">
+       <form:options items="${student.countryOptions}"/>
+    </form:select>
+   
+   <br><br>
+ 
+   Favorite Language :
+   <br>
+   Java<form:radiobutton path="favoriteLanguage" value="Java"/>
+   Python<form:radiobutton path="favoriteLanguage" value="Python"/>
+   Ruby<form:radiobutton path="favoriteLanguage" value="Ruby"/>
+   C#<form:radiobutton path="favoriteLanguage" value="C#"/>
+   
+   <br><br>
+   
+   Operating Systems :
+   
+   Linux<form:checkbox path="operatingSystems" value="Linux"/>
+   MS Windows<form:checkbox path="operatingSystems" value="MS Windows"/>
+   Mac OS<form:checkbox path="operatingSystems" value="Mac OS"/>
+   
+   <br><br>
    <input type="submit" value="Submit"/>
+ 
+   
    
   </form:form>
+  
   
 </body>
 </html>
